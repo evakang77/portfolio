@@ -242,15 +242,8 @@ ul {
 @media only screen and (min-width: 800px) {
 
   
-  #download a {
-    color:  #dadada;
-    border: 1px solid #dadada;
+ 
 
-  }
-  #download a:hover {
-    color: rgb(255, 255, 255);
-    border: 1px solid white;
-  }
   #main {
     background-image: url(../img/bushiwo.png);
     background-repeat: no-repeat;
@@ -285,12 +278,12 @@ ul {
     right: 15vh;
     bottom: 15vh;
     margin:0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
   }
 
 
-  #intro p{
-    color: white;
-  }
   .right {
     margin-top: 0;
     flex-direction: column;
@@ -330,9 +323,7 @@ ul {
     color: #000;
     border: 1px solid black;
   }
-  #intro p {
-    color: #5D5D5D;
-  }
+
 }
 
 
