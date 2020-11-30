@@ -103,6 +103,7 @@ textarea {
   }
   #travelers{
     background-color: #759598;
+    font-weight: 200;
   }
   #travelers-title{
     color: white;
@@ -112,13 +113,13 @@ textarea {
     font-family: 'AzoSans', helvetical, sans-serif;
     padding: 25px 0 0 0;
     width: 100%;
-    color: #51575a;
+    color: white;
     display: block;
     font-size: 20px;
     position: fixed;
     top: 0px;
     text-align: center;
-    background-color: #759598;
+    background-color: #51575a;
     -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19); 
 box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);  
   }
@@ -130,7 +131,7 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
     height: 2.5px;
     bottom: 0;
     left: 0;
-    /* background-color: #015959; */
+    background-color:white;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.4s ease-in-out 0s;
@@ -146,10 +147,45 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
   }
 
   #wellscan {
-    background-color: #ecf8ec;
+    background-color: #d8ead9;
+    font-weight: 200;
   }
   
+  #wellscan-title{
+    color: #655c56;
+  }
+  #wellscan_link {
+    position: relative;
+    font-family: 'AzoSans', helvetical, sans-serif;
+    padding: 25px 0 0 0;
+    width: 100%;
+    color:  #655c56;
+    display: block;
+    font-size: 17px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    background-color: #d8ead9;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19); 
+box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);  
+  }
   
+  #wellscan_link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color:#95b49c;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0s;
+  }
+  #wellscan_link:hover::before{
+    visibility: visible;
+    transform: scaleX(2);
+  }
   .item {
     width: 100%;
     margin: 0 auto;
