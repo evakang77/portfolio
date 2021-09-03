@@ -150,6 +150,14 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
     background-color: #d8ead9;
     font-weight: 200;
   }
+
+  #gc {
+    background-color: #fff5f4;
+  }
+
+  #gc .mockup {
+    width: 45%;
+  }
   
   #wellscan-title{
     color: #655c56;
@@ -270,8 +278,17 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
     visibility: visible;
     transform: scaleX(2);
   }
-  #toyoutube{
+
+
+  #gc-bg{
+    background-color: white;
   }
+  #gc-bg:hover{
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19); 
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);  
+    transition: all 0.4s ease-in-out 0.2s;
+  }
+
   #toyoutube:hover{
     -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19); 
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);  
