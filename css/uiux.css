@@ -98,9 +98,21 @@ textarea {
     width: 100%;
 
   }
+ #float {
+  position: fixed; 
+  right: 10px; 
+  bottom: 10px;
+  
+ }
+
+ #float img {
+  width: 50px;
+ }
+
   a {
     text-decoration: none;
   }
+
   #travelers{
     background-color: #759598;
     font-weight: 200;
