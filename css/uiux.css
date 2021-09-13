@@ -128,6 +128,8 @@ textarea {
   #travelers{
     background-color: #759598;
     font-weight: 200;
+    color: white;
+    font-family: 'AzoSans', helvetical, sans-serif;
   }
   #travelers-title{
     color: white;
@@ -245,6 +247,11 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
 #studium li {
   font-family: hoefler-text;
   color: #015959;
+
+}
+
+li {
+
   text-align: left;
 }
   .bold {
@@ -259,43 +266,56 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
     font-family: optima, helvetical, sans-serif;
     color: #015959;
   }
-  #studiumdiv {
+  .flexdivs {
     
     display: flex;
-justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  #studiumdiv div{
-    width: 42%;
+  .flexdivs div{
+    width: 70%;
+    margin: 0 auto;
   }
 
   table {
     text-align: left;
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
+    border-collapse:separate;
+    border-spacing:0;
   
   }
-  .tg  {
-    border-collapse:collapse;
-    border-spacing:0;
-    
-    
+
+  #studium td{
+    border: 5px solid #fffaef;
+    color:#015959;
+    background-color: #c7e4cd;
   }
+
+  #travelers td {
+    border: 5px solid #759598;
+    color:#fff;
+    background-color: #51575a;
+  }
+
 .tg td{
-  border-color:#fffaef;
-  border-style:solid;
-  border-width:8px;
-  color:blanchedalmond;
-  background-color: #015959;
-  padding: 10px;
+  font-family: optima, helvetical, sans-serif;
+  
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+
+  
+  
+  padding: 20px 30px;
 }
   .mockupmd {
-    width: 70%;
+    width: 100%;
     margin-top: 50px;
     border-radius: 20px;
   }
   .mockupsm {
-    width: 60%;
+    width: 100%;
   }
  
 
@@ -354,7 +374,31 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
     transition: all 0.4s ease-in-out 0.2s;
     cursor: pointer;
   }
+  @media only screen and (min-width: 1000px) {
+    .flexdivs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
 
+  .flexdivs div{
+    width: 45%;
+  }
+
+  table {
+    width: 60%;
+  
+  }
+
+  .mockupsm {
+    width: 60%;
+  }
+  .mockupmd {
+    width: 70%;
+   
+  }
+  }
+  
 /* ==========================================================================
    Helper classes
    ========================================================================== */
