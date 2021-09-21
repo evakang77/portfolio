@@ -93,6 +93,24 @@ html,body {
   width: 100%;
   font-family: Helvetica Neue, Helvetica, sans-serif;
 }
+
+.letters img{
+  width: 100px;
+}
+
+.letters {
+  text-align: center;
+}
+
+.lettersheet {
+  text-align: center;
+}
+
+.lettersheet img{
+width: 50%;
+
+}
+
 p {
   font-family: Helvetica, sans-serif;
   font-weight: 100;
