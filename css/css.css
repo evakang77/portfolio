@@ -204,6 +204,7 @@ html,body {
 
 .header {
   width:20%;
+ 
   
 }
 .header a {
@@ -523,6 +524,9 @@ textarea:focus{
     align-items: center;
     margin-top: 20px;
     grid-column:3;
+    position:fixed;
+    right: 20px;
+    top: 18px;
 
     
   }
