@@ -164,6 +164,20 @@ textarea {
     margin: 0; 
   }
 
+  #design-system {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  flex-direction: column;
+    
+  }
+
+  #design-system img{
+    width: 55%;
+    margin: auto;
+    margin-bottom:20px;
+  }
+
 
 #ourhome .sub-head{
   font-size: 20px;
@@ -589,6 +603,16 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
   }
   .flexthree {
     flex-direction: row;
+  }
+
+  #design-system {
+    flex-direction: row;
+  }
+
+  #design-system img{
+    width: 17%;
+ 
+
   }
 
   table {
