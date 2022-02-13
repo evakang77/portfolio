@@ -129,7 +129,7 @@ textarea {
   }
 
   #ohlistStyles {
-    width: 60%; 
+    width: 90%; 
     margin: auto;
     font-size: 22px; 
     font-weight: 700; 
@@ -173,7 +173,7 @@ textarea {
   }
 
   #design-system img{
-    width: 55%;
+    width: 70%;
     margin: auto;
     margin-bottom:20px;
   }
@@ -486,7 +486,7 @@ li {
   }
 
   .flexdivs div{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -613,6 +613,11 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
     width: 17%;
  
 
+  }
+
+  #ohlistStyles {
+    width: 60%; 
+   
   }
 
   table {
