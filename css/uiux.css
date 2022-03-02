@@ -207,7 +207,7 @@ textarea {
 
 .centerdiv {
   text-align: center;
-  width: 400px;
+  width: 90%;
   margin: auto;
 }
 
@@ -604,6 +604,13 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
   .flexthree {
     flex-direction: row;
   }
+
+
+.centerdiv {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
 
   #design-system {
     flex-direction: row;
