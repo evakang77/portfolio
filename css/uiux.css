@@ -131,7 +131,7 @@ textarea {
   #ohlistStyles {
     width: 90%; 
     margin: auto;
-    font-size: 22px; 
+    font-size: 20px; 
     font-weight: 700; 
     line-height: 1.8;
    color: #2861EA;
@@ -140,9 +140,9 @@ textarea {
   #ourhome {
     margin: 0 auto;
     font-family: 'Rosario', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 2.3;
     background-color: #f7f9ff;
   }
   #ourhome .bigfont{
@@ -595,11 +595,11 @@ box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.19);
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      margin: 0 100px;
+      margin: 0 170px;
     }
 
   .flexdivs div{
-    width: 45%;
+    width: 40%;
   }
   .flexthree {
     flex-direction: row;
